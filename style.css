@@ -1,93 +1,63 @@
+/* General Body Styles */
 body {
-  background-color: #FFF8E7; 
+  background-color: #e8e5de; /* soft cream */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  color: #222;
 }
 
+/* Header */
 header {
-  background-color: #FF7F50; 
-  padding: 15px;
+  background-color: #621f18; /* deep red */
+  padding: 20px;
   text-align: center;
-  border-bottom: 4px solid #228B22; 
+  border-bottom: 4px solid #1A4734; /* smooth green line */
 }
 
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
+  color: #418B24; /* white header text */
+}
+
+/* Navigation */
 nav a {
   margin: 0 15px;
-  color: white;
+  color: #418B24;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.1em;
 }
 
 nav a:hover {
-  color: #FFD700; 
+  color: #1A4734; /* smooth green hover */
+  transition: 0.3s;
 }
 
-h1, h2 {
-  color: #228B22; 
+/* Section Titles */
+h2 {
+  color: #1A4734; /* dark green headings */
+  margin-top: 30px;
 }
 
-table {
-  width: 100%;
-  border: 1px solid #ccc;
-  background-color: white;
-  border-collapse: collapse;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 12px;
-  text-align: left;
-}
-
-th {
-  background-color: #FFA500; 
-  color: white;
-}
-
-tr:nth-child(even) {
-  background-color: #FFFACD; 
-}
-
+/* Lists */
 ul {
-  list-style-type: circle;
+  list-style-type: square;
   padding-left: 20px;
 }
 
 ol {
-  list-style-type: upper-roman;
+  list-style-type: decimal;
   padding-left: 20px;
 }
 
-form {
-  margin: 20px;
-  padding: 15px;
-  border: 2px solid #FF7F50;
-  background-color: #FFF;
-}
-
-form input[type="text"] {
-  width: 80%;
-  padding: 5px;
-  margin-top: 5px;
-}
-
-form input[type="submit"] {
-  background-color: #228B22;
-  color: white;
-  padding: 8px 15px;
-  border: none;
-  cursor: pointer;
-}
-
-form input[type="submit"]:hover {
-  background-color: #006400; 
-}
-
+/* Footer */
 footer {
-  background-color: #8B4513; 
-  color: white;
+  background-color: #621f18; /* rich brown footer */
+  color: #080808;
   text-align: center;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
+  font-weight: bold;
 }
