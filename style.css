@@ -1,27 +1,24 @@
-/* General Body Styles */
 body {
-  background-color: #e8e5de; /* soft cream */
+  background-color: #e8e5de; 
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #222;
 }
 
-/* Header */
 header {
-  background-color: #621f18; /* deep red */
+  background-color: #621f18; 
   padding: 20px;
   text-align: center;
-  border-bottom: 4px solid #1A4734; /* smooth green line */
+  border-bottom: 4px solid #1A4734; 
 }
 
 header h1 {
   margin: 0;
   font-size: 2.2em;
-  color: #418B24; /* white header text */
+  color: #418B24; 
 }
 
-/* Navigation */
 nav a {
   margin: 0 15px;
   color: #418B24;
@@ -31,17 +28,15 @@ nav a {
 }
 
 nav a:hover {
-  color: #1A4734; /* smooth green hover */
+  color: #1A4734; 
   transition: 0.3s;
 }
 
-/* Section Titles */
 h2 {
-  color: #1A4734; /* dark green headings */
+  color: #1A4734; 
   margin-top: 30px;
 }
 
-/* Lists */
 ul {
   list-style-type: square;
   padding-left: 20px;
@@ -52,9 +47,8 @@ ol {
   padding-left: 20px;
 }
 
-/* Footer */
 footer {
-  background-color: #621f18; /* rich brown footer */
+  background-color: #621f18; 
   color: #080808;
   text-align: center;
   padding: 15px;
